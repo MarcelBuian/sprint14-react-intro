@@ -1,6 +1,7 @@
-// import logo from './logo.svg';
-import logo from './skillbrain_logo.jpeg';
+import logo from './logos/skillbrain_logo.jpeg';
 import './App.css';
+import Gallery from './Gallery';
+import TodoList from './TodoList';
 
 function App() {
   console.log("App js before return");
@@ -19,6 +20,9 @@ function App() {
         >
           Learn React JS
         </a>
+
+        <Gallery />
+        <TodoList />
       </header>
     </div>
   );
